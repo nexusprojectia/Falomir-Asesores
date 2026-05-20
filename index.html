@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Falomir Asesores | Asesoría Legal y Fiscal</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- FontAwesome for professional icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo-container">
+                <!-- If logo file is present use it, fallback to stylized text matching the provided image style -->
+                <img src="logo.png" alt="Falomir Asesores" class="logo-img" onerror="this.style.display='none'; document.getElementById('logo-text').style.display='block';">
+                <div id="logo-text" class="logo-fallback" style="display:none;">
+                    <span class="brand-top">FALOMIR</span>
+                    <span class="brand-bottom">ASESORES</span>
+                </div>
+            </a>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#" class="nav-link active">Inicio</a>
+                <a href="#servicios" class="nav-link">Servicios</a>
+                <a href="#compromiso" class="nav-link">Compromiso</a>
+                <a href="#contacto" class="nav-btn">Consulta Gratuita</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="hero-tagline">Tu tranquilidad fiscal es nuestro objetivo</span>
+                <h1>SOMOS TU ASESORÍA LEGAL Y FISCAL</h1>
+                <p>Acompañamos a Autónomos, Emprendedores y Pymes desde el inicio de su actividad, ofreciendo un servicio integral personalizado y con garantía jurídica.</p>
+                <div class="hero-buttons">
+                    <a href="#contacto" class="btn btn-primary">CONSULTA GRATUITA</a>
+                    <a href="#servicios" class="btn btn-secondary">Ver Servicios</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nuestros Servicios</h2>
+                <div class="header-line"></div>
+                <p>Ofrecemos soluciones integrales adaptadas a las necesidades reales de tu negocio.</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-user-tie"></i>
+                    </div>
+                    <h3>1. Servicio Personalizado para Autónomos</h3>
+                    <ul>
+                        <li>Alta en Hacienda y Seguridad Social</li>
+                        <li>Gestor personal y consultoría fiscal</li>
+                        <li>Plataforma de gestión de documentos</li>
+                        <li>Modelos trimestrales y anuales</li>
+                    </ul>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-building"></i>
+                    </div>
+                    <h3>2. Servicio para Sociedades</h3>
+                    <ul>
+                        <li>Alta en Hacienda y un autónomo societario</li>
+                        <li>Gestor personal y consultoría fiscal, contabilidad</li>
+                        <li>Plataforma de gestión de documentos</li>
+                        <li>Modelos trimestrales, anuales e impuesto de sociedades</li>
+                    </ul>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-rocket"></i>
+                    </div>
+                    <h3>3. Asesoría para Emprendedores</h3>
+                    <p class="service-text">Falomir Asesores es un Punto de Atención al Emprendedor (PAE) autorizado por el Ministerio de Economía, Industria y Competitividad para agilizar y simplificar la creación de tu nueva empresa.</p>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-users-gear"></i>
+                    </div>
+                    <h3>4. Gestoría Laboral</h3>
+                    <ul>
+                        <li>Altas y bajas de trabajadores</li>
+                        <li>Elaboración de nóminas</li>
+                        <li>Trámites con la Seguridad Social</li>
+                        <li>Modelos y simulación de nómina</li>
+                    </ul>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-id-card-clip"></i>
+                    </div>
+                    <h3>5. Certificado Electrónico</h3>
+                    <p class="service-text">Obtén tu certificado de manera rápida y segura:</p>
+                    <ul>
+                        <li>Certificado de ciudadano o persona física</li>
+                        <li>Certificado de representante ante las administraciones públicas</li>
+                        <li>Certificado de representante con poderes generales</li>
+                    </ul>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-scale-balanced"></i>
+                    </div>
+                    <h3>6. Procedimientos Tributarios</h3>
+                    <p class="service-text">Nuestro equipo especializado en asesoramiento jurídico tributario se dedica a la prevención, gestión y resolución de controversias fiscales en todo tipo de procedimientos con las diferentes Administraciones Tributarias.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TRUST & ACCREDITATIONS SECTION -->
+    <section id="compromiso" class="compromiso">
+        <div class="container">
+            <div class="compromiso-grid">
+                <div class="compromiso-card">
+                    <div class="comp-icon"><i class="fa-solid fa-award"></i></div>
+                    <h4>Asesor Excelente</h4>
+                    <p>Nos aseguramos de estar siempre actualizados y comprometidos con la formación continua gracias a nuestra membresía en Asesor Excelente.</p>
+                </div>
+                <div class="compromiso-card">
+                    <div class="comp-icon"><i class="fa-solid fa-landmark"></i></div>
+                    <h4>Colaboradores de la AEAT</h4>
+                    <p>Como Colaboradores Sociales de la Agencia Tributaria, accedemos a información actualizada para ayudarte a cumplir con tus obligaciones fiscales.</p>
+                </div>
+                <div class="compromiso-card">
+                    <div class="comp-icon"><i class="fa-solid fa-circle-check"></i></div>
+                    <h4>Punto PAE Autorizado</h4>
+                    <p>Somos un punto PAE que utiliza la plataforma CIRCE para crear empresas. Facilitamos que los emprendedores reduzcan la cantidad de trámites necesarios para iniciar su actividad, minimizando errores administrativos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contacto" class="contacto-section">
+        <div class="container contact-container">
+            <div class="contact-info">
+                <h2>Tu asesoría online personalizada</h2>
+                <p class="lead-text">NO TE QUEDES ATRÁS</p>
+                <p>Contacta con nosotros hoy mismo y un asesor experto analizará tu caso sin coste alguno.</p>
+                
+                <div class="contact-details">
+                    <div class="detail-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>+34 958 22 33 44</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>falomirasesores@gmail.com</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Granada, España</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fa-solid fa-clock"></i>
+                        <span>Lun - Vie: 9:00 - 14:00 y 16:00 - 19:00</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-container">
+                <form id="lead-form" class="professional-form" onsubmit="handleFormSubmit(event)">
+                    <div class="form-group">
+                        <label for="nombre">Nombre *</label>
+                        <input type="text" id="nombre" required placeholder="Tu nombre completo">
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" id="telefono" placeholder="Tu número de teléfono">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" required placeholder="tuemail@ejemplo.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje *</label>
+                        <textarea id="mensaje" required rows="4" placeholder="¿En qué podemos ayudarte?"></textarea>
+                    </div>
+                    <div class="form-checkbox">
+                        <input type="checkbox" id="rgpd" required>
+                        <label for="rgpd">Marcando la casilla confirma que ha leído y acepta el tratamiento de sus datos. <strong>Falomir Asesores</strong> tratará sus datos con el objetivo de dar respuesta a su consulta conforme a nuestra <a href="politica-privacidad.html" target="_blank">política de privacidad</a>.</label>
+                    </div>
+                    <button type="submit" class="btn-submit">Enviar Mensaje</button>
+                </form>
+
+                <!-- SUCCESS ANIMATION OVERLAY -->
+                <div id="success-overlay" class="success-overlay">
+                    <div class="success-card">
+                        <div class="success-icon-wrap">
+                            <i class="fa-solid fa-circle-check"></i>
+                        </div>
+                        <h3>¡Mensaje Enviado!</h3>
+                        <p>Gracias por contactar con Falomir Asesores. Tu consulta se ha registrado correctamente y nos pondremos en contacto contigo en la mayor brevedad posible.</p>
+                        <button onclick="closeSuccess()" class="btn btn-primary">Entendido</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-left">
+                <p>&copy; 2026 Falomir Asesores. Creamos soluciones legales y fiscales personalizadas e innovadoras.</p>
+                <p class="location-tag"><i class="fa-solid fa-location-dot"></i> Granada, España</p>
+            </div>
+            <div class="footer-right">
+                <a href="aviso-legal.html">Aviso Legal</a> | 
+                <a href="politica-privacidad.html">Política de Privacidad</a> | 
+                <a href="politica-cookies.html">Política de Cookies</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- FLOATING WHATSAPP BUTTON -->
+    <a href="https://wa.me/34958223344?text=Hola,%20deseo%20realizar%20una%20consulta%20con%20Falomir%20Asesores." class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Contacto por WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">¿Necesitas ayuda? Hablamos</span>
+    </a>
+
+    <!-- COOKIE BANNER -->
+    <div id="cookie-banner" class="cookie-banner">
+        <div class="cookie-content">
+            <p><strong>Falomir Asesores</strong> únicamente utiliza cookies propias con finalidad técnica, no recaba ni cede datos de carácter personal de los usuarios sin su conocimiento. Puede consultar más detalles en nuestra <a href="politica-cookies.html">Política de Cookies</a>.</p>
+            <div class="cookie-buttons">
+                <button onclick="acceptCookies()" class="btn-cookie accept">Aceptar</button>
+                <button onclick="rejectCookies()" class="btn-cookie reject">Rechazar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
